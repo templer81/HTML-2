@@ -1,0 +1,17 @@
+/* Doge Profile Picture */
+#profilePicture
+{
+	width: 300px;
+}
+
+/* Doge Profile Information */
+#dogeInformation ul
+{
+	list-style-type: none;
+	text-align: left;
+}
+
+.dogeInfoField
+{
+	font-weight: bold;
+}

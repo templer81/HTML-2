@@ -1,0 +1,12 @@
+/* Default body for all pages */
+body
+{
+	background: LightBlue;
+}
+
+/* Navigation Pane bullet style */
+nav,
+ul
+{
+	list-style-type: disc;
+}
