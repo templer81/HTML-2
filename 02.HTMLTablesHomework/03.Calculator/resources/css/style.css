@@ -1,0 +1,21 @@
+/* Calculator table style */
+.calculator_frame
+{
+	background-color: LightBlue;
+	text-align: center;
+}
+
+/* Buttons style */
+.button
+{
+	background-color: LightBlue;
+	border-style: solid;
+	border-color: rgb(0,0,0);
+	width: 35px;
+}
+
+/* Additional style for buttons Equals, Clear and Zero */
+#equals, #clear, #zero
+{
+	width: 80px;
+}

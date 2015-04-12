@@ -1,0 +1,11 @@
+/*Meaningless table*/
+#Meaningless
+{
+	border-collapse: collapse;
+	text-align: center;
+}
+#Meaningless, td
+{
+	border: 2px solid black;
+	padding: 20px;
+}
