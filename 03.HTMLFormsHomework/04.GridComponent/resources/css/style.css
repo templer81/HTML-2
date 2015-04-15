@@ -1,0 +1,25 @@
+*
+{
+	font-family: Calibri;
+}
+
+table, th, td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th 
+{
+	background-color: LightGray;
+}
+
+#nav_row
+{
+	text-align: left;
+}
+
+#info_section
+{
+	float: right;
+}
