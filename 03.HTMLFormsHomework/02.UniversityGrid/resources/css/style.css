@@ -1,0 +1,21 @@
+/* Grid component */
+table
+{
+	font-family: Calibri;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+/* Grid component common cells */
+th, td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+/* Grid component special cells */
+th
+{
+	font-size: 18px;
+	background-color: LightGray;
+}

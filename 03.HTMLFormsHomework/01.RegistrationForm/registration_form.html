@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration form</title>
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	</head>
+	<body>
+		<form action="http://www.example.com/login.php" method="post">
+			<fieldset>
+				<legend><strong>REGISTRATION FORM</strong></legend>
+				<table id="registration_form_table">
+					<tr>
+						<th>Last Name</th>
+						<td>
+							<input type="text" name="last_name"/></td>
+					</tr>
+					<tr>
+						<th>First Name</th>
+						<td>
+							<input type="text" name="first_name"/></td>
+					</tr>
+					<tr>
+						<th>Address</th>
+						<td>
+							<textarea name="address" rows="8" cols="20"></textarea></td>
+					</tr>
+					<tr>
+						<th>City</th>
+						<td>
+							<input id="city_controller" type="text" name="city"/>
+							<label for="state_controller">&nbsp;State</label>
+							<input id="state_controller" type="text" name="state">
+							</td>
+					</tr>
+					<tr>
+						<th>Zip/Postal Code</th>
+						<td>
+							<input type="text" name="zip_postal_code"/></td>
+					</tr>
+					<tr>
+						<th>Country</th>
+						<td>
+							<select id="country_controller">
+							  <option value="bulgaria">Bulgaria</option>
+							  <option value="usa">USA</option>
+							  <option value="germany">Germany</option>
+							  <option value="france">France</option>
+							  <option value="united arab emirates">United Arab Emirates</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Phone(country code,<br/>area code, number)</th>
+						<td>
+							<label for="country_code">
+								(+<input id="country_code" class="country_code_controller" type="text" name="country_code"/>)
+							</label>
+							<input class="phone_controller" type="text" name="area_code"/>
+							<input class="phone_controller" type="text" name="number"/></td>
+					</tr>
+					<tr>
+						<th>E-mail</th>
+						<td>
+							<input type="email" name="email"/></td>
+					</tr>
+					<tr>
+						<th>Birth date</th>
+						<td>
+							<input type="date" name="birth_date"/></td>
+					</tr>
+					<tr>
+						<th>Gender</th>
+						<td>
+							<select id="gender_controller">
+							  <option value="male">Male</option>
+							  <option value="female">Female</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Starting date</th>
+						<td>
+							<input class="start_date_controller" type="radio" name="sex" value="male">Spring 2015
+							<input class="start_date_controller" type="radio" name="sex" value="female">Summer 2015
+						</td>
+					</tr>
+					<tr>
+						<th>Comments/Questions</th>
+						<td>
+							<textarea name="comments" rows="8" cols="20"></textarea></td>
+					</tr>
+					<tr id="form_button_area">
+						<td colspan="2">
+							<input class="form_button" type="submit"/>
+							<input class="form_button" type="reset"/></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</body>
+</html>

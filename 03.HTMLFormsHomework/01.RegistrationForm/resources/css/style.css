@@ -1,0 +1,72 @@
+/*Text areas width */
+textarea
+{
+	width: 245px;
+}
+
+/* Input controllers width */
+input
+{
+	width: 247px; /* No idea why the numbers are so magic. */
+}
+
+/* Registration form outlines */
+fieldset
+{
+	display: inline-block;
+	border-style: solid;
+	border-color: rgb(0,0,0);
+}
+
+/* Registration form tabular data cells border */
+th, td
+{
+	border: 1px solid black;
+}
+
+/* Additional styles for specific form controllers */
+#city_controller
+{
+	width: 150px;
+}
+
+#state_controller
+{
+	width: 50px;
+}
+
+#country_controller
+{
+	width: 200px;
+}
+
+.country_code_controller
+{
+	width: 50px;
+}
+
+.phone_controller
+{
+	width: 80px;
+}
+
+.gender_controller
+{
+	width: 50px;
+}
+
+.start_date_controller
+{
+	width: 20px;
+}
+
+#form_button_area
+{
+	background-color: LightBlue;
+	text-align: center;
+}
+
+.form_button
+{
+	width: 100px;
+}
